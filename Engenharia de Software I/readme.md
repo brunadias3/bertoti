@@ -8,3 +8,12 @@ Definindo os requisitos funcionais e qualidativos de um sistema educacional.
 
 
 ## Requisitos Não-Funcionais
+
+![Cópia de Cópia de Cópia de backlog CERTP](https://user-images.githubusercontent.com/89141910/156756335-3e4bacec-2cef-4e86-8030-04572dbbbc3e.png)
+
+### 💻 Heurísticas Utilizadas
+
+A tela representada é a atual ferramenta que utilizamos para realizar reuniões e anexar arquivos, o Teams.
+
+- **Visibilidade do status do sistema:** O Teams usa uma ferramenta de cores para determinar se o usuário está disponível, em reunião e/ou a última aparição no aplicativo.
+- **Correspondência entre o sistema e o mundo real:** Ao utilizarmos ícones
