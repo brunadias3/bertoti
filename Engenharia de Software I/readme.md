@@ -8,7 +8,7 @@ Definindo os requisitos funcionais e qualidativos de um sistema educacional.
 
 ## Requisitos Não-Funcionais
 
-![Cópia de Cópia de Cópia de backlog CERTP](https://user-images.githubusercontent.com/89141910/156756335-3e4bacec-2cef-4e86-8030-04572dbbbc3e.png)
+![interface (1)](https://user-images.githubusercontent.com/89141910/157749596-1cbbca3e-1388-4874-8ca4-3175f21d95f6.png)
 
 ### 💻 Heurísticas Utilizadas
 
