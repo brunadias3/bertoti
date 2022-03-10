@@ -1,5 +1,5 @@
 # 03/03 - Atividade de Requisitos
-Definindo os requisitos funcionais e qualidativos de um sistema educacional.
+Definindo os requisitos funcionais e qualitativos de um sistema educacional.
 
 ## Diagrama de casos de uso - Requisitos Funcionais
 
