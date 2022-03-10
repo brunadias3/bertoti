@@ -1,8 +1,7 @@
-# 03/03 - Diagrama de Casos de Uso
+# 03/03 - Atividade de Requisitos
 Definindo os requisitos funcionais e qualidativos de um sistema educacional.
 
-## Requisitos Funcionais
-
+## Diagrama de casos de uso - Requisitos Funcionais
 
 ![Sistema Educacional drawio (1)](https://user-images.githubusercontent.com/89141910/156596001-c02f87f2-7ea7-4d63-ae02-474fd1879bf3.png)
 
@@ -18,4 +17,4 @@ A tela representada é a atual ferramenta que utilizamos para realizar reuniões
 - **Visibilidade do status do sistema:** O Teams usa uma ferramenta de cores para determinar se o usuário está disponível, em reunião e/ou a última aparição no aplicativo.
 - **Correspondência entre o sistema e o mundo real:** Diz respeito a criar uma interface funcional e acessível que fale a linguagem do usuário. Ou seja, que utiliza palavras, frases e conceitos que sejam familiares ao usuário, neste caso usaremos os ícones.
 
-# 10/03 - Diagrama de Classes
+# 10/03 - Atividade de Projeto - Diagrama de Classes
