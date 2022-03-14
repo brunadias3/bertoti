@@ -20,5 +20,6 @@ A tela representada é a atual ferramenta que utilizamos para realizar reuniões
 - **Estética e design minimalista:** O design da interface deve ser minimalista e o conteúdo o mais direto possível para que o usuário não tenha que perder tempo analisando as informações e poder tomar uma decisão, aumentando as chances de abandonar a aplicação por ser complexa demais.
 
 # 10/03 - Atividade de Projeto - Diagrama de Classes
+Projeto da arquitetura de um sistema escolar.
 
 ![DiagramadeClasses drawio](https://user-images.githubusercontent.com/89141910/158180224-32bf7986-d14d-4cb9-a2b5-6d07a8f9564b.png)
