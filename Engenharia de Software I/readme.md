@@ -21,3 +21,4 @@ A tela representada é a atual ferramenta que utilizamos para realizar reuniões
 
 # 10/03 - Atividade de Projeto - Diagrama de Classes
 
+![DiagramadeClasses drawio](https://user-images.githubusercontent.com/89141910/158180224-32bf7986-d14d-4cb9-a2b5-6d07a8f9564b.png)
