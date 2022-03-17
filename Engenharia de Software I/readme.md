@@ -27,3 +27,5 @@ Projeto da arquitetura de um sistema escolar.
 ![DiagramadeClasses drawio (1)](https://user-images.githubusercontent.com/89141910/158807260-86611c2f-c516-43a0-b4e5-bd13e685767b.png)
 
 ## Classes + Java
+
+![novo1 drawio](https://user-images.githubusercontent.com/89141910/158859071-34b92185-3e04-4271-814c-05909abc4a01.png)
