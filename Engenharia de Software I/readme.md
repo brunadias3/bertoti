@@ -1,4 +1,5 @@
-# 03/03 - Atividade de Requisitos
+# Bruna Dias - RA: 1460482121009
+# 03/03 - Ciclo de Vida do DER SW
 Definindo os requisitos funcionais e qualitativos de um sistema educacional.
 
 ## Diagrama de casos de uso - Requisitos Funcionais
@@ -19,7 +20,10 @@ A tela representada é a atual ferramenta que utilizamos para realizar reuniões
 - **Consistência e Padronização:** Essa heurística é um tanto quanto simples e diz respeito ao padrão para o usuário não se sentir perdido e ainda poder ser replicado.
 - **Estética e design minimalista:** O design da interface deve ser minimalista e o conteúdo o mais direto possível para que o usuário não tenha que perder tempo analisando as informações e poder tomar uma decisão, aumentando as chances de abandonar a aplicação por ser complexa demais.
 
-# 10/03 - Atividade de Projeto - Diagrama de Classes
+# 10/03 - Atividade de Projeto
 Projeto da arquitetura de um sistema escolar.
 
-![DiagramadeClasses drawio](https://user-images.githubusercontent.com/89141910/158180224-32bf7986-d14d-4cb9-a2b5-6d07a8f9564b.png)
+## Diagrama de Classes
+![DiagramadeClasses drawio (1)](https://user-images.githubusercontent.com/89141910/158807260-86611c2f-c516-43a0-b4e5-bd13e685767b.png)
+
+## Classes + Java
