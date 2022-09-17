@@ -1,5 +1,5 @@
 # 👨‍🎓 Informações do estudante
-Nome: Bruna dos Santos Dias
+Nome: Bruna dos Santos Dias<br>
 RA: 	1460482121009
 
 ## 🎯 Objetivo
