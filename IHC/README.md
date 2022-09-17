@@ -24,7 +24,7 @@ Um bom exemplo disso são as descrições de imagem do twitter:
     <img src="./images/descricao.jpg" alt="descrição do twitter" style="vertical-align:top; align:center; display:inline-flex;padding: 10px; width:370px; height:800px;"/>
 </section> 
 
-Um mau exemplo:
+> Link do <a href="https://twitter.com/TwitterBrasil/status/1512500459600326670">tweet</a>
 
 ### 1.2 Mídia baseada no tempo
 Forneça alternativas para mídia baseada no tempo.
@@ -71,23 +71,83 @@ Um bom exemplo desse recurso é o botão de pause que o Youtube oferece:
 
 ### 2.3 Convulções e Reações Físicas
 Não projete conteúdo de forma conhecida por causar convulsões ou reações físicas.
+Nenhum conteúdo da página deve piscar mais que 3 vezes por segundo, a não ser que os flashes estejam em baixo contraste ou possuam pouco vermelho.
 
 ### 2.4 Navegável
 Fornecer maneiras de ajudar os usuários a navegar, encontrar conteúdo e determinar onde eles estão.
+Um mecanismo está disponível para contornar blocos de conteúdo que são repetidos em várias páginas da Web. 
+
+Um bom exemplo disso é o menu da amazon, que está presente em todas as páginas que o usuário possa acessar do site.
+
+<section align="center">
+    <img src="./images/menu_amazon.png" alt="menu da amazon" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
+</section>
+
+>Link do <a href="https://www.amazon.com.br/">site</a>utilizado
 
 ### 2.5 Modalidades de entrada
 Facilite a funcionalidade dos usuários através de várias entradas além do teclado.
 
+Toda funcionalidade que exige um caminho tátil para ser acionada (exemplo: arrastar com o dedo em uma tela de toque) precisa também de um método alternativo que facilite a interação por quem não consegue efetuar o gesto.
+
+Um bom exemplo disso é quando fazemos o movimento de "pinça" no touchpad de algum notebook, o resultado esperado na maioria dos dispositivos é que dê um zoom.
+
+<section align="center">
+    <img src="./images/zoom_site.png" alt="site com zoom" style="vertical-align:top; align:center; display:inline-flex; padding: 15px;"/>
+    <img src="./images/zoom.png" alt="movimento de pinça" style="vertical-align:top; align:center; display:inline-flex; padding: 10px; height:100px; width:100px"/>
+</section>
+
 ## 3 - Compreensível
 As informações e o funcionamento da interface do usuário devem ser compreensíveis.
 ### 3.1 Legível
+Palavras regionais específicas e nomes próprios costumam ter pronúncias também específicas. Deve ser fornecida uma forma de possibilitar a correta compreensão da pronúncia em alguns casos.
+
+Um bom exemplo disso é o wikipédia, que disponibiliza um arquivo de áudio exemplificando como deve ser a pronúncia: 
+
+<section align="center">
+    <img src="./images/wikipedia.png" alt="artigo da wikipedia" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
+</section>
+
+>Link do <a href="https://pt.wikipedia.org/wiki/Leonardo_da_Vinci">artigo wikipedia</a>
+
 ### 3.2 Previsível
+A  intenção deste Critério de Sucesso é garantir uma identificação consistente de componentes funcionais que aparecem repetidamente dentro de um conjunto de páginas da Web. Uma estratégia que as pessoas que usam leitores de tela usam ao operar um site da Web é confiar fortemente em sua familiaridade com funções que podem aparecer em diferentes páginas da Web. Se funções idênticas tiverem rótulos diferentes (ou, mais geralmente, um nome acessível diferente) em diferentes páginas da Web, o site será consideravelmente mais difícil de usar. Também pode ser confuso e aumentar a carga cognitiva para pessoas com limitações cognitivas. Portanto, rotulagem consistente ajudará.
+
+Essa consistência se estende às alternativas de texto. Se ícones ou outros itens não-texto tiverem a mesma funcionalidade, então suas alternativas de texto também devem ser consistentes.
+
+Um bom exemplo disso é o ícone de carrinho de compras que normalmente em todos os e-commerces: 
+
+<section align="center">
+    <img src="./images/carrinho-fast.png" alt="carrinho de compras da fast shop" style="vertical-align:top; align:center; display:inline-flex; padding: 1px;"/>
+    <img src="./images/carrinho-kabum.png" alt="carrinho de compras da kabum" style="vertical-align:top; align:center; display:inline-flex; padding: 1px;"/>
+    <img src="./images/carrinho-amazon.png" alt="carrinho de compras da amazon" style="vertical-align:top; align:center; display:inline-flex; padding: 1px;"/>
+</section>
+
+>Link dos sites utilizados: <a href="https://www.fastshop.com.br/web/">Fast Shop</a>, <a href="https://www.kabum.com.br/">Kabum</a>, <a href="https://www.amazon.com.br/">Amazon</a>.
+
 ### 3.3 Assistência de entrada
+A intenção deste Critério de Sucesso é que os autores de conteúdo apresentem instruções ou rótulos que identifiquem os controles de forma que os usuários saibam quais dados de entrada são esperados. No caso de botões de rádio, caixas de seleção, comboboxes ou controles similares que fornecem aos usuários opções, cada opção deve ter um rótulo apropriado para que os usuários saibam o que estão realmente selecionando. As instruções ou rótulos também podem especificar formatos de dados para campos de entrada de dados, especialmente se eles estão fora dos formatos habituais ou se há regras específicas para a entrada correta. Os autores de conteúdo também podem optar por disponibilizar tais instruções aos usuários somente quando o controle individual tiver foco especialmente quando as instruções forem longas e verbosas.
+
+A intenção deste Critério de Sucesso não é confundir a página com informações desnecessárias, mas fornecer dicas e instruções importantes que beneficiem as pessoas com deficiência. Muita informação ou instrução pode ser tão prejudicial quanto muito pouco. O objetivo é garantir que informações suficientes sejam fornecidas para que o usuário realize a tarefa sem confusão indevida ou navegação.
+
+Um bom exemplo disso é quando o usuário realiza o cadastro no site das Americanas, eles informam-o como os campos devem ser preenchidos, para prevenção de erros: 
+
+<section align="center">
+    <img src="./images/cadastro-americanas.png" alt="cadastro na Americanas" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
+</section>
+
+>Link do cadastro das <a href="https://cliente.americanas.com.br/minha-conta/cadastro?next=https://www.americanas.com.br/">Americanas</a>.
 ## 4 - Robusto
 O conteúdo deve ser robusto o suficiente para que possa ser interpretado por uma grande variedade de agentes do usuário, incluindo tecnologias assistivas.
 ### 4.1 Compatível
 No conteúdo implementado usando linguagens de marcação, as mensagens de status podem ser determinadas programáticamente por meio de função ou propriedades, de modo que possam ser apresentadas ao usuário por tecnologias assistivas sem receber foco.
 
+Um bom exemplo desse recurso é o Discord, que possibilita o usuário setar o status dele, ou irá ser setado automáticamente: 
+
+<section align="center">
+    <img src="./images/discord.png" alt="status de atividade discord" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
+</section>
+
 ## Referências
 - <a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=129&currentsidebar=%23col_overview#principle1"> Heurísticas </a>
-- <a href="" Guia </a>
+- <a href="https://guia-wcag.com/"> Guia </a>
