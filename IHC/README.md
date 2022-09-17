@@ -34,6 +34,13 @@ Crie conteúdo que possa ser apresentado de diferentes maneiras (por exemplo, la
 Um recurso da adaptabilidade é a Orientação.
 Alguns sites e aplicativos exigem que os usuários orientem seus dispositivos móveis em modo paisagem ou retrato, em vez de dar-lhes uma escolha. A intenção desse critério de sucesso é garantir que os usuários que não podem rodar facilmente seu dispositivo ainda possam acessar conteúdo e funcionalidade em sites em qualquer orientação do dispositivo.
 
+Um bom exemplo disso é a Apple que fez o site ser responsivo, isto é, faz com que sua página da web fique bem em todos os dispositivos e ainda se adeque no modo retrato e paisagem.
+
+<section align="center">
+    <img src="./images/paisagem.jpeg" alt="Site Apple modo landscape" style="vertical-align:top; align:center; display:inline-flex; margin:20px; width:360px"/>
+    <img src="./images/retrato.jpeg" alt="Site da Apple modo retrato" style="vertical-align:top; align:center; display:inline-flex; height:360px;"/>
+</section> 
+
 ### 1.4 Distinguível
 A intenção deste Critério de Sucesso é garantir que todos os usuários com visão possam acessar informações que são transmitidas por diferenças de cor, ou seja, pelo uso de cor onde cada cor tem um significado atribuído a ela. Se as informações forem transmitidas por diferenças de cor em uma imagem (ou outro formato não-texto), a cor pode não ser vista por usuários com deficiências de cor. Neste caso, fornecer as informações transmitidas com cor através de outro meio visual garante que os usuários que não podem ver a cor ainda possam perceber as informações.
 
@@ -83,7 +90,7 @@ Um bom exemplo disso é o menu da amazon, que está presente em todas as página
     <img src="./images/menu_amazon.png" alt="menu da amazon" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
 </section>
 
->Link do <a href="https://www.amazon.com.br/">site</a>utilizado
+>Link do <a href="https://www.amazon.com.br/">site</a> utilizado.
 
 ### 2.5 Modalidades de entrada
 Facilite a funcionalidade dos usuários através de várias entradas além do teclado.
