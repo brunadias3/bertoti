@@ -33,9 +33,10 @@ Qualquer conteúdo pré-gravado que contenha uma faixa de áudio (seja apenas á
 
 Um bom exemplo disso é o Spotify que coloca as letras das músicas enquanto as mesmas tocam:
 
-<video src="./images/musica.mp4"></video>
-
-> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5EGPf0nqO7vEIwsOX6Er98?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<section align="center">
+    <img src="./images/musica.jpg" alt="letras spotify" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"/>
+</section> 
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5EGPf0nqO7vEIwsOX6Er98?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ### 1.3 Adaptável
 Crie conteúdo que possa ser apresentado de diferentes maneiras (por exemplo, layout mais simples) sem perder informações ou estrutura.
