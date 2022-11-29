@@ -1,4 +1,4 @@
-# Interação Humano Computador 
+# Interação Humano Computador - Heurísticas
 **Objetivo:** Aplicar os conceitos de usabilidade de software. Neste <a href="https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=129&currentsidebar=%23col_overview#principle1">documento</a>, a W3C cobre todas as estratégias que devem ser seguidas para tornar o conteúdo da web mais acessível.
 
 ## WCAG - Web Content Acessibility Guidelines
@@ -84,7 +84,7 @@ Um bom exemplo desse recurso é o botão de pause que o Youtube oferece:
 
 > Link do <a href="https://www.youtube.com/watch?v=1G4isv_Fylg&ab_channel=Coldplay">vídeo</a>
 
-### 2.3 Convulções e Reações Físicas
+### 2.3 Convulsões e Reações Físicas
 Não projete conteúdo de forma conhecida por causar convulsões ou reações físicas.
 Nenhum conteúdo da página deve piscar mais que 3 vezes por segundo, a não ser que os flashes estejam em baixo contraste ou possuam pouco vermelho.
 
