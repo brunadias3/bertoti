@@ -7,3 +7,4 @@ Repositório criado para armazenar as atividades desenvolvidas nas disciplinas d
 
 - <a href="https://github.com/brunadias3/bertoti/tree/main/Engenharia%20de%20Software%20I">Engenharia de software I</a>
 - <a href="https://github.com/brunadias3/bertoti/tree/main/IHC">Interação Humano Computador</a>
+- <a href="https://github.com/brunadias3/bertoti/tree/main/Engenharia%20de%20Software%20III">Engenharia de software III</a>
