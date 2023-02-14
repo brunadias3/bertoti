@@ -24,7 +24,7 @@ Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedi
 
 7. O padrão Strategy permite que você se livre dessa condicional ao extrair todos os algoritmos para classes separadas, todos eles implementando a mesma interface. O objeto original delega a execução de um desses objetos, ao invés de implementar todas as variantes do algoritmo.
 
-## Exemplo - Equipe de Cinema
+## 🎥 Exemplo - Equipe de Cinema
 --exemplo com o diagrama--
 
 ## 📌 Referências
