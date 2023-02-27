@@ -20,27 +20,6 @@ class Person {
     public void partOf();
 }
 
-Person --> Team
-
-' interface Employee {
-'   +days
-'   +perDay
-'   float calcSalary();
-' }
-
-' class Director implements Employee {
-
-' }
-
-' class Actor implements Employee {
-
-' }
-
-' class ScreenWriter implements Employee {
-
-' }
-
-
-' Person --> Employee
+Person *--> Team
 
 @enduml
