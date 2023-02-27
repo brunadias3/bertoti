@@ -1,0 +1,43 @@
+@startuml EquipeCinema
+
+title Diagrama de Classes - Equipes de Cinema
+
+interface Team {
+  void partOf();
+}
+
+class Cast implements Team {
+  void partOf();
+}
+
+class Crew implements Team {
+  public void partOf();
+}
+
+class Person {
+    private Team team;
+    private Employee emplys;
+    public void setTime(Team team);
+    public void partOf();
+    public void setEmployee(Employee emplys);
+    public float calcSalary(int days);
+}
+
+Person *--> Team
+
+interface Employee {
+  +days
+  float calcSalary();
+}
+
+class Director implements Employee {
+  float calcSalary();
+}
+
+class Actor implements Employee {
+float calcSalary();
+}
+
+Person *--> Employee
+
+@enduml
