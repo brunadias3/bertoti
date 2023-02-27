@@ -3,21 +3,21 @@
 title Diagrama de Classes - Equipes de Cinema
 
 interface Team {
-  void partOf();
+  + void partOf();
 }
 
 class Cast implements Team {
-  void partOf();
+  + void partOf();
 }
 
 class Crew implements Team {
-  public void partOf();
+  + void partOf();
 }
 
 class Person {
-    private Team team;
-    public void setTime(Team team);
-    public void partOf();
+    - Team team;
+    + void setTime(Team team);
+    + void partOf();
 }
 
 Person *--> Team
