@@ -1,6 +1,6 @@
 @startuml SuperMarket
 
-title Diagrama de Classes - Ifood
+title Diagrama de Classes - NewsLetter
 
 
 class NewsLetter {
