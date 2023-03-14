@@ -29,7 +29,7 @@ Imagine que você tem que chegar ao aeroporto. Você pode pegar um ônibus, pedi
   <img src="./diagramas/diagramaStrategy.png" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"></img>
 </section>
 
-- Arquivo <a href="Cinema.zip">ZIP</a> do código
+- <a href="./codigo">Pasta do código</a>
 
 ## 📌 Referências
 - <a href="https://refactoring.guru/refactoring/catalog">Refactoring Guru</a>
