@@ -1,0 +1,27 @@
+@startuml SuperMarket
+
+title Diagrama de Classes - Ifood
+
+
+class NewsLetter {
+    - List<Observer> observers;
+    + void addObserver(Observer observer)
+    + void removeObserver(Observer observer)
+    + void notifyObservers(String message)
+}
+
+interface Observer {
+  + public void notify(string message)
+}
+
+class Phone implements Observer {
+  + void notify(string message)
+}
+
+class Computer implements Observer {
+  + void notify(string message)
+}
+
+NewsLetter ..> Observer
+
+@enduml
