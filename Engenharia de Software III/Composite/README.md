@@ -3,18 +3,16 @@
 ## 💬 Propósito
 **O Composite** é um padrão de design estrutural que permite compor objetos em estruturas de árvore e, em seguida, trabalhar com essas estruturas como se fossem objetos individuais.
 
-<figure>
-<img src="https://refactoring.guru/images/patterns/content/composite/composite.png">
-<figcaption> O padrão Composto permite que você execute um comportamento recursivamente sobre todos os componentes de uma árvore de objetos. </figcaption>
-
-</figure>
+<section align="center">
+    <img src="https://refactoring.guru/images/patterns/content/composite/composite.png" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;">
+ </section>
 
 ## 🚗 Analogia com o mundo real
-<figure>
-    <img src="https://refactoring.guru/images/patterns/diagrams/composite/live-example.png"> <br>
-    <figcaption>Um exemplo de uma estrutura militar.</figcaption>
-</figure>
 
+<section align="center">
+    <img src="https://refactoring.guru/images/patterns/diagrams/composite/live-example.png"> <br>
+ </section>
+ 
 - Os exércitos da maioria dos países são estruturados como hierarquias. Um exército consiste em várias divisões; uma divisão é um conjunto de brigadas, e uma brigada consiste em pelotões, que podem ser divididos em esquadrões. 
   
 - Finalmente, um esquadrão é um pequeno grupo de soldados reais. As ordens são dadas no topo da hierarquia e passadas para cada nível até que cada soldado saiba o que precisa ser feito.
