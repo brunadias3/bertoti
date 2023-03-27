@@ -1,0 +1,24 @@
+@startuml FyleSystem
+
+title Diagrama de Classes - Sistema de Arquivos
+
+interface Arquivo {
+  + void printNome();
+}
+
+class ArquivoLeaf implements Arquivo {
+  - string nome
+  + void printNome()
+}
+
+class PastaComposite implements Arquivo {
+  - string nome
+  - List<Arquivo> arquivos
+  + void printNome()
+  + void adicionar(Arquivo arquivo)
+  + void remover(Arquivo arquivo)
+}
+
+PastaComposite o--> Arquivo
+
+@enduml
