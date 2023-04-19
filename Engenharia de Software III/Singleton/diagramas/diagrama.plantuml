@@ -1,0 +1,14 @@
+@startuml Singleton
+
+title Diagrama de Classes - Singleton
+
+class Singleton {
+    - instance: Singleton
+    - Singleton()
+    + Singleton getInstance()
+    + void showMessage()
+}
+
+Singleton -> Singleton
+
+@enduml
