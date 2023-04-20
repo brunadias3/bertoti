@@ -2,6 +2,7 @@
 
 ## 💬 Propósito
 **O Facade** é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes.
+
 <img src="https://refactoring.guru/images/patterns/content/facade/facade.png?id=1f4be17305b6316fbd548edf1937ac3b">
 
 ## 🚗 Analogia com o mundo real
