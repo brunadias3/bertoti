@@ -1,0 +1,21 @@
+@startuml Facade
+
+title Diagrama de Classes - Facade
+
+class TVRemoteFacade {
+    - tv: TV
+}
+
+class TV {
+    -channel: int
+    -volume: int
+    -isOn: boolean
+    +turnOn(): void
+    +turnOff(): void
+    +changeChannel(channel: int): void
+    +adjustVolume(volume: int): void
+}
+
+TVRemoteFacade -> TV
+
+@enduml
