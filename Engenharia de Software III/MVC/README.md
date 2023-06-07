@@ -31,5 +31,5 @@ O padrão Singleton é utilizado na classe `TaskController`, garantindo que apen
 ## 📈 Diagrama
 
 <section align="center">
-  <img src="diagrama.png" style="vertical-align:top; align:center; display:inline-flex; padding: 10px;"></img>
+  <img src="diagrama.png"></img>
 </section>
