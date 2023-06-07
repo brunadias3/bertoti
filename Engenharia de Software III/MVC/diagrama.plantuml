@@ -1,0 +1,61 @@
+@startuml MVC - Task Manager
+
+title Diagrama de Classes - MVC
+
+class Task {
+  - description: String
+  - completed: boolean
+  - observers: List<TaskObserver>
+
+  + getDescription(): String
+  + isCompleted(): boolean
+  + setCompleted(completed: boolean): void
+  + attachObserver(observer: TaskObserver): void
+  + detachObserver(observer: TaskObserver): void
+  - notifyObservers(): void
+}
+
+interface TaskObserver {
+  + update(task: Task): void
+}
+
+class TaskList implements TaskObserver {
+  - name: String
+  - observers: List<TaskObserver>
+  - tasks: List<Task>
+
+  + getName(): String
+  + addTask(task: Task): void
+  + removeTask(task: Task): void
+  + clearTasks(): void
+  + attachObserver(observer: TaskObserver): void
+  + detachObserver(observer: TaskObserver): void
+  - notifyObservers(): void
+  + getTasks(): List<Task>
+}
+
+class TaskController implements TaskObserver {
+  - instance: TaskController
+  - taskList: TaskList
+  - taskView: TaskView
+
+  + getInstance(): TaskController
+  + addTask(description: String): void
+  + completeTask(index: int): void
+  + removeTask(index: int): void
+  + showTasks(): void
+  + update(task: Task): void
+}
+
+class TaskView {
+  + displayTasks(tasks: List<Task>): void
+  + displayMessage(message: String): void
+}
+
+Task ..> TaskObserver
+TaskList o--> TaskObserver
+TaskController --down-> TaskController
+TaskController o--> TaskView
+ 
+
+@enduml
