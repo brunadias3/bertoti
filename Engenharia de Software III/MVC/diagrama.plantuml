@@ -57,8 +57,9 @@ interface TaskViewInterface {
   + displayMessage(message: String): void
 }
 
-Task ..> TaskObserver
 TaskList o--> TaskObserver
+Task ..> TaskObserver
+TaskList <- TaskController
 TaskController --down-> TaskController
 TaskController o--> TaskView
  
