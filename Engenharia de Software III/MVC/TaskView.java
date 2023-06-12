@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class TaskView {
+public class TaskView implements TaskViewInterface {
     public void displayTasks(List<Task> tasks) {
         System.out.println("\nLista de Tarefas:\n");
 

@@ -47,7 +47,12 @@ class TaskController implements TaskObserver {
   + update(task: Task): void
 }
 
-class TaskView {
+class TaskView implements TaskViewInterface {
+  + displayTasks(tasks: List<Task>): void
+  + displayMessage(message: String): void
+}
+
+interface TaskViewInterface {
   + displayTasks(tasks: List<Task>): void
   + displayMessage(message: String): void
 }
